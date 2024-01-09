@@ -15,7 +15,7 @@ find_package(fmt CONFIG REQUIRED)
 
 
 # Add source to this project's executable.
-add_executable (avltree "avltree.cpp" "avltree.h")
+add_executable (avltree "main.cpp" "avltree.cpp" "avltree.h")
 
 target_link_libraries(avltree PRIVATE fmt::fmt)
 
